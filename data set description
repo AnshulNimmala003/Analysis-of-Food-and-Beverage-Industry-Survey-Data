@@ -1,0 +1,36 @@
+Data set Description
+Fact Table: fact_survey_responses
+• Response_ID: Unique identifier for each survey response.
+• Respondent_ID: Unique identifier for each respondent.
+• Consume_frequency: Frequency of consumption of food and beverage products.
+• Consume_time: Typical time when the products are consumed.
+• Consume_reason: Reasonsfor consuming the products.
+• Heard_before: Whether the respondent has heard of the product before.
+• Brand_perception: Respondent's perception of the brand.
+• General_perception: Overall perception of the food and beverage industry.
+• Tried_before: Whether the respondent has tried the product before.
+• Taste_experience: Respondent's experience with the taste of the product.
+• Reasons_preventing_trying: Reasons preventing respondentsfrom trying the product.
+• Current_brands: Brands currently consumed by the respondent.
+• Reasons_for_choosing_brands: Reasonsfor choosing specific brands.
+• Improvements_desired: Improvements desired in products.
+• Ingredients_expected: Expected ingredients in products.
+• Health_concerns: Health concernsrelated to products.
+• Interest_in_natural_or_organic: Interest in natural or organic products.
+• Marketing_channels: Preferred marketing channels for product information.
+• Packaging_preference: Preferencesfor product packaging.
+• Limited_edition_packaging: Interest in limited edition packaging.
+• Price_range: Preferred price range for products.
+• Purchase_location: Typical locations where products are purchased.
+• Typical_consumption_situations: Common situationsin which products are consumed.
+Dimension Table: dim_respondent
+• Respondent_ID: Unique identifier for each respondent.
+• Name: Name of the respondent.
+• Age: Age of the respondent.
+• Gender: Gender of the respondent.
+• City_ID: Identifier linking the respondent to a city.
+
+Dimension Table: dim_cities
+• City_ID: Unique identifier for each city.
+• City: Name of the city.
+• Tier: Tier classification of the city (e.g., Tier 1, Tier 2).
